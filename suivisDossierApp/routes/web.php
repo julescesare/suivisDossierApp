@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AnoController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -8,3 +9,6 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('pages.dashboard');
 })->name('dashboard');
+
+//Ano
+Route::resource('anos', AnoController::class);

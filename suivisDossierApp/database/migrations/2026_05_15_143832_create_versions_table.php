@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedBigInteger('dossier_id');
             $table->string('numero_depot');
             $table->unsignedBigInteger('type_version_id');
-            $table->unsignedBigInteger('created_by');
+            $table->unsignedBigInteger('created_by')->nullable();
             $table->timestamps();
         });
     }

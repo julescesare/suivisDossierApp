@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ asset('admin/assets/css/bootstrap.css') }}">
 
     <link rel="stylesheet" href="{{ asset('admin/assets/vendors/chartjs/Chart.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin/assets/vendors/simple-datatables/style.css') }}">
 
     <link rel="stylesheet" href="{{ asset('admin/assets/vendors/perfect-scrollbar/perfect-scrollbar.css') }}">
     <link rel="stylesheet" href="{{ asset('admin/assets/css/app.css') }}">
@@ -38,6 +39,9 @@
         <script src="{{ asset('admin/assets/js/pages/dashboard.js') }}"></script>
 
         <script src="{{ asset('admin/assets/js/main.js') }}"></script>
+        <script src="{{ asset('admin/assets/vendors/simple-datatables/simple-datatables.js') }}"></script>
+        <script src="{{ asset('admin/assets/js/vendors.js') }}"></script>
+
 </body>
 
 </html>

@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('instructions', function (Blueprint $table) {
             $table->id();
             $table->text('contenus');
-            $table->unsignedBigInteger('created_by');
+            $table->unsignedBigInteger('created_by')->nullable();
             $table->timestamps();
         });
     }

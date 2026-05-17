@@ -7,324 +7,274 @@
              <ul class="menu">
 
 
-                 <li class='sidebar-title'>Main Menu</li>
-
-
-
+                 <li class='sidebar-title'>Menu principal</li>
                  <li class="sidebar-item active ">
-
                      <a href="{{ route('dashboard') }}" class='sidebar-link'>
                          <i data-feather="home" width="20"></i>
-                         <span>Dashboard</span>
+                         <span>Tableau de bord</span>
                      </a>
-
-
                  </li>
-
-
-
-                 <li class="sidebar-item  has-sub">
+                 <!-- GESTION DES DOSSIERS -->
+                 <li class="sidebar-item has-sub">
 
                      <a href="#" class='sidebar-link'>
-                         <i data-feather="triangle" width="20"></i>
-                         <span>Components</span>
+                         <i data-feather="folder" width="20"></i>
+                         <span>Gestion des Dossiers</span>
                      </a>
-
 
                      <ul class="submenu ">
 
                          <li>
-                             <a href="component-alert.html">Alert</a>
+                             <a href="#">Nouveau dossier</a>
                          </li>
 
                          <li>
-                             <a href="component-badge.html">Badge</a>
+                             <a href="#">Liste des dossiers</a>
                          </li>
 
                          <li>
-                             <a href="component-breadcrumb.html">Breadcrumb</a>
+                             <a href="#">Dossiers en étude</a>
                          </li>
 
                          <li>
-                             <a href="component-buttons.html">Buttons</a>
+                             <a href="#">Dossiers validés</a>
                          </li>
 
                          <li>
-                             <a href="component-card.html">Card</a>
-                         </li>
-
-                         <li>
-                             <a href="component-carousel.html">Carousel</a>
-                         </li>
-
-                         <li>
-                             <a href="component-dropdowns.html">Dropdowns</a>
-                         </li>
-
-                         <li>
-                             <a href="component-list-group.html">List Group</a>
-                         </li>
-
-                         <li>
-                             <a href="component-modal.html">Modal</a>
-                         </li>
-
-                         <li>
-                             <a href="component-navs.html">Navs</a>
-                         </li>
-
-                         <li>
-                             <a href="component-pagination.html">Pagination</a>
-                         </li>
-
-                         <li>
-                             <a href="component-progress.html">Progress</a>
-                         </li>
-
-                         <li>
-                             <a href="component-spinners.html">Spinners</a>
-                         </li>
-
-                         <li>
-                             <a href="component-tooltips.html">Tooltips</a>
+                             <a href="#">Dossiers signés</a>
                          </li>
 
                      </ul>
 
                  </li>
 
+                 <!-- GESTION DES VERSIONS -->
+                 <li class="sidebar-item has-sub">
 
+                     <a href="#" class='sidebar-link'>
+                         <i data-feather="git-branch" width="20"></i>
+                         <span>Gestion des Versions</span>
+                     </a>
 
-                 <li class="sidebar-item  has-sub">
+                     <ul class="submenu ">
+
+                         <li>
+                             <a href="#">Nouvelle version</a>
+                         </li>
+
+                         <li>
+                             <a href="#">Liste des versions</a>
+                         </li>
+
+                     </ul>
+
+                 </li>
+
+                 <!-- GESTION DES AUTORITES -->
+                 <li class="sidebar-item has-sub">
 
                      <a href="#" class='sidebar-link'>
                          <i data-feather="briefcase" width="20"></i>
-                         <span>Extra Components</span>
+                         <span>Autorités Contractantes</span>
                      </a>
-
 
                      <ul class="submenu ">
 
                          <li>
-                             <a href="component-extra-avatar.html">Avatar</a>
+                             <a href="#">Nouvelle autorité</a>
                          </li>
 
                          <li>
-                             <a href="component-extra-divider.html">Divider</a>
+                             <a href="#">Liste des autorités</a>
                          </li>
 
                      </ul>
 
                  </li>
 
+                 <!-- GESTION DES NATURES -->
+                 <li class="sidebar-item has-sub">
 
+                     <a href="#" class='sidebar-link'>
+                         <i data-feather="layers" width="20"></i>
+                         <span>Nature des Dossiers</span>
+                     </a>
 
-                 <li class='sidebar-title'>Forms &amp; Tables</li>
+                     <ul class="submenu ">
 
+                         <li>
+                             <a href="#">Nouvelle nature</a>
+                         </li>
 
+                         <li>
+                             <a href="#">Liste des natures</a>
+                         </li>
 
-                 <li class="sidebar-item  has-sub">
+                     </ul>
+
+                 </li>
+
+                 <!-- GESTION DES INSTRUCTIONS -->
+                 <li class="sidebar-item has-sub">
 
                      <a href="#" class='sidebar-link'>
                          <i data-feather="file-text" width="20"></i>
-                         <span>Form Elements</span>
+                         <span>Instructions DN</span>
                      </a>
-
 
                      <ul class="submenu ">
 
                          <li>
-                             <a href="form-element-input.html">Input</a>
+                             <a href="#">Nouvelle instruction</a>
                          </li>
 
                          <li>
-                             <a href="form-element-input-group.html">Input Group</a>
-                         </li>
-
-                         <li>
-                             <a href="form-element-select.html">Select</a>
-                         </li>
-
-                         <li>
-                             <a href="form-element-radio.html">Radio</a>
-                         </li>
-
-                         <li>
-                             <a href="form-element-checkbox.html">Checkbox</a>
-                         </li>
-
-                         <li>
-                             <a href="form-element-textarea.html">Textarea</a>
+                             <a href="#">Liste des instructions</a>
                          </li>
 
                      </ul>
 
                  </li>
 
+                 <!-- GESTION DU PERSONNEL -->
+                 <li class="sidebar-item has-sub">
 
-
-                 <li class="sidebar-item  ">
-
-                     <a href="form-layout.html" class='sidebar-link'>
-                         <i data-feather="layout" width="20"></i>
-                         <span>Form Layout</span>
+                     <a href="#" class='sidebar-link'>
+                         <i data-feather="users" width="20"></i>
+                         <span>Gestion du Personnel</span>
                      </a>
 
+                     <ul class="submenu ">
+
+                         <li>
+                             <a href="#">Nouveau personnel</a>
+                         </li>
+
+                         <li>
+                             <a href="#">Liste du personnel</a>
+                         </li>
+
+                         <li>
+                             <a href="#">Fonctions</a>
+                         </li>
+
+                     </ul>
 
                  </li>
 
+                 <!-- GESTION DES ENTITES -->
+                 <li class="sidebar-item has-sub">
 
-
-                 <li class="sidebar-item  ">
-
-                     <a href="form-editor.html" class='sidebar-link'>
-                         <i data-feather="layers" width="20"></i>
-                         <span>Form Editor</span>
-                     </a>
-
-
-                 </li>
-
-
-
-                 <li class="sidebar-item  ">
-
-                     <a href="table.html" class='sidebar-link'>
+                     <a href="#" class='sidebar-link'>
                          <i data-feather="grid" width="20"></i>
-                         <span>Table</span>
+                         <span>Gestion des Entités</span>
                      </a>
-
-
-                 </li>
-
-
-
-                 <li class="sidebar-item  ">
-
-                     <a href="table-datatable.html" class='sidebar-link'>
-                         <i data-feather="file-plus" width="20"></i>
-                         <span>Datatable</span>
-                     </a>
-
-
-                 </li>
-
-
-
-                 <li class='sidebar-title'>Extra UI</li>
-
-
-
-                 <li class="sidebar-item  has-sub">
-
-                     <a href="#" class='sidebar-link'>
-                         <i data-feather="user" width="20"></i>
-                         <span>Widgets</span>
-                     </a>
-
 
                      <ul class="submenu ">
 
                          <li>
-                             <a href="ui-chatbox.html">Chatbox</a>
+                             <a href="#">Nouvelle entité</a>
                          </li>
 
                          <li>
-                             <a href="ui-pricing.html">Pricing</a>
-                         </li>
-
-                         <li>
-                             <a href="ui-todolist.html">To-do List</a>
+                             <a href="#">Liste des entités</a>
                          </li>
 
                      </ul>
 
                  </li>
 
-
-
-                 <li class="sidebar-item  has-sub">
+                 <!-- GESTION DES ANO -->
+                 <li class="sidebar-item has-sub">
 
                      <a href="#" class='sidebar-link'>
-                         <i data-feather="trending-up" width="20"></i>
-                         <span>Charts</span>
+                         <i data-feather="check-circle" width="20"></i>
+                         <span>Gestion des ANO</span>
                      </a>
-
 
                      <ul class="submenu ">
 
                          <li>
-                             <a href="ui-chart-chartjs.html">ChartJS</a>
+                             <a href="{{ route('anos.create') }}">Nouvel ANO</a>
                          </li>
 
                          <li>
-                             <a href="ui-chart-apexchart.html">Apexchart</a>
+                             <a href="{{ route('anos.index') }}">Liste des ANO</a>
                          </li>
 
                      </ul>
 
                  </li>
 
-
-
-                 <li class='sidebar-title'>Pages</li>
-
-
-
-                 <li class="sidebar-item  has-sub">
+                 <!-- SUIVI ET RAPPORTS -->
+                 <li class="sidebar-item has-sub">
 
                      <a href="#" class='sidebar-link'>
-                         <i data-feather="user" width="20"></i>
-                         <span>Authentication</span>
+                         <i data-feather="bar-chart-2" width="20"></i>
+                         <span>Rapports & Suivis</span>
                      </a>
-
 
                      <ul class="submenu ">
 
                          <li>
-                             <a href="auth-login.html">Login</a>
+                             <a href="#">Dossiers en retard</a>
                          </li>
 
                          <li>
-                             <a href="auth-register.html">Register</a>
+                             <a href="#">Statistiques</a>
                          </li>
 
                          <li>
-                             <a href="auth-forgot-password.html">Forgot Password</a>
+                             <a href="#">Temps de traitement</a>
                          </li>
 
                      </ul>
 
                  </li>
 
-
-
-                 <li class="sidebar-item  has-sub">
+                 <!-- LOGS -->
+                 <li class="sidebar-item has-sub">
 
                      <a href="#" class='sidebar-link'>
-                         <i data-feather="alert-circle" width="20"></i>
-                         <span>Errors</span>
+                         <i data-feather="activity" width="20"></i>
+                         <span>Historique & Logs</span>
                      </a>
-
 
                      <ul class="submenu ">
 
                          <li>
-                             <a href="error-403.html">403</a>
+                             <a href="#">Journal des actions</a>
                          </li>
 
                          <li>
-                             <a href="error-404.html">404</a>
-                         </li>
-
-                         <li>
-                             <a href="error-500.html">500</a>
+                             <a href="#">Activités utilisateurs</a>
                          </li>
 
                      </ul>
 
                  </li>
 
+                 <!-- PARAMETRES -->
+                 <li class="sidebar-item has-sub">
+
+                     <a href="#" class='sidebar-link'>
+                         <i data-feather="settings" width="20"></i>
+                         <span>Paramètres</span>
+                     </a>
+
+                     <ul class="submenu ">
+
+                         <li>
+                             <a href="#">Gestion des rôles</a>
+                         </li>
+
+                         <li>
+                             <a href="#">Configuration système</a>
+                         </li>
+
+                     </ul>
+
+                 </li>
 
              </ul>
          </div>

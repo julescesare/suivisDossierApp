@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('nom');
             $table->string('prenom');
             $table->string('email');
-            $table->unsignedBigInteger('created_by');
+            $table->unsignedBigInteger('created_by')->nullable();
             $table->unsignedBigInteger('fonction_id');
             $table->string('telephone');
             $table->timestamps();
