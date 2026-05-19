@@ -23,7 +23,7 @@ class AnoRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'avis' => 'required|string|max:255|unique:anos,avis,' . $this->route('ano')->id,
+            'avis' => 'required|string|max:255|unique:anos,avis,' . optional($this->route('ano'))->id,
             'description' => 'required|string',
         ];
     }
