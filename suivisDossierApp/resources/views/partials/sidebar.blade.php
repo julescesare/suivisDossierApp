@@ -57,14 +57,6 @@
                      </a>
 
                      <ul class="submenu ">
-
-                         <li>
-                             <a href="#">Nouvelle version</a>
-                         </li>
-
-                         <li>
-                             <a href="#">Liste des versions</a>
-                         </li>
                          <li>
                              <a href="{{ route('type_versions.create') }}">Nouveau type de version</a>
                          </li>
@@ -101,7 +93,7 @@
                  <!-- GESTION DES NATURES -->
                  <li class="sidebar-item has-sub">
 
-                     <a href="#" class='sidebar-link'>
+                     <a href="{{ route('natures.index') }}" class='sidebar-link'>
                          <i data-feather="layers" width="20"></i>
                          <span>Nature des Dossiers</span>
                      </a>
@@ -109,11 +101,11 @@
                      <ul class="submenu ">
 
                          <li>
-                             <a href="#">Nouvelle nature</a>
+                             <a href="{{ route('natures.create') }}">Nouvelle nature</a>
                          </li>
 
                          <li>
-                             <a href="#">Liste des natures</a>
+                             <a href="{{ route('natures.index') }}">Liste des natures</a>
                          </li>
 
                      </ul>

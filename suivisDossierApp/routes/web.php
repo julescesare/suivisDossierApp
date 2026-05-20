@@ -3,6 +3,7 @@
 use App\Http\Controllers\AnoController;
 use App\Http\Controllers\AutoriteController;
 use App\Http\Controllers\InstructionController;
+use App\Http\Controllers\NatureController;
 use App\Http\Controllers\TypeVersionController;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,5 @@ Route::resource('type_versions', TypeVersionController::class);
 Route::resource('autorites', AutoriteController::class);
 //Instruction
 Route::resource('instructions', InstructionController::class);
+//Nature
+Route::resource('natures', NatureController::class);

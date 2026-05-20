@@ -43,7 +43,7 @@ class InstructionController extends Controller
     public function update(InstructionRequest $request, Instruction $instruction)
     {
         $instruction->update($request->validated());
-        return redirect()->route('instruction.index')->with('success', 'Instruction mise à jour avec succès.');
+        return redirect()->route('instructions.index')->with('success', 'Instruction mise à jour avec succès.');
     }
 
     public function destroy(Instruction $instruction)

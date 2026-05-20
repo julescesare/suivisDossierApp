@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('natures', function (Blueprint $table) {
             $table->id();
-            $table->string('nom');
+            $table->string('libelle')->unique();
             $table->string('description');
             $table->unsignedBigInteger('created_by')->nullable();
             $table->timestamps();

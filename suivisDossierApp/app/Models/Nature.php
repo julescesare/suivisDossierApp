@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Nature extends Model
 {
     protected $fillable = [
-        'nom',
+        'libelle',
         'description',
         'created_by'
     ];
