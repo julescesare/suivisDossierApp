@@ -27,3 +27,5 @@ Route::resource('instructions', InstructionController::class);
 Route::resource('natures', NatureController::class);
 //entite
 Route::resource('entites', EntiteController::class);
+//fonction
+Route::resource('fonctions', \App\Http\Controllers\FonctionController::class);

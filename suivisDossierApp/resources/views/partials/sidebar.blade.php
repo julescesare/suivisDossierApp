@@ -153,7 +153,11 @@
                          </li>
 
                          <li>
-                             <a href="#">Fonctions</a>
+                             <a href="{{ route('fonctions.index') }}">Liste des fonctions</a>
+                         </li>
+
+                         <li>
+                             <a href="{{ route('fonctions.create') }}">Nouvelle fonction</a>
                          </li>
 
                      </ul>
