@@ -29,3 +29,5 @@ Route::resource('natures', NatureController::class);
 Route::resource('entites', EntiteController::class);
 //fonction
 Route::resource('fonctions', \App\Http\Controllers\FonctionController::class);
+//personnel
+Route::resource('personnels', \App\Http\Controllers\PersonnelController::class);

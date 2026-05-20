@@ -145,11 +145,11 @@
                      <ul class="submenu ">
 
                          <li>
-                             <a href="#">Nouveau personnel</a>
+                             <a href="{{ route('personnels.create') }}">Nouveau personnel</a>
                          </li>
 
                          <li>
-                             <a href="#">Liste du personnel</a>
+                             <a href="{{ route('personnels.index') }}">Liste du personnel</a>
                          </li>
 
                          <li>

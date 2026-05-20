@@ -11,6 +11,7 @@ class Personnel extends Model
         'prenom',
         'telephone',
         'fonction_id',
+        'email',
         'user_id',
         'created_by'
     ];
