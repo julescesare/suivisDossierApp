@@ -25,11 +25,11 @@
             @include('partials.header')
             <!-- Main Content -->
             <div class="main-content container-fluid">
-                <div class="container">
+                <div class="container-fluid">
 
                     @if(session('success'))
 
-                    <div class="alert alert-success alert-dismissible fade show">
+                    <div class="alert alert-success alert-dismissible fade show ">
 
                         {{ session('success') }}
 

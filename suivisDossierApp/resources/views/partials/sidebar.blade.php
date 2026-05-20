@@ -131,11 +131,11 @@
                      <ul class="submenu ">
 
                          <li>
-                             <a href="#">Nouvelle instruction</a>
+                             <a href="{{ route('instructions.create') }}">Nouvelle instruction</a>
                          </li>
 
                          <li>
-                             <a href="#">Liste des instructions</a>
+                             <a href="{{ route('instructions.index') }}">Liste des instructions</a>
                          </li>
 
                      </ul>

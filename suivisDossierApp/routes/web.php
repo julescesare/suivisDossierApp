@@ -2,8 +2,8 @@
 
 use App\Http\Controllers\AnoController;
 use App\Http\Controllers\AutoriteController;
+use App\Http\Controllers\InstructionController;
 use App\Http\Controllers\TypeVersionController;
-use App\Http\Controllers\VersionController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -19,3 +19,5 @@ Route::resource('anos', AnoController::class);
 Route::resource('type_versions', TypeVersionController::class);
 //Autorite
 Route::resource('autorites', AutoriteController::class);
+//Instruction
+Route::resource('instructions', InstructionController::class);
