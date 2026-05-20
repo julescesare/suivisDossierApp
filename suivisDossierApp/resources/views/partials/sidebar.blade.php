@@ -65,6 +65,12 @@
                          <li>
                              <a href="#">Liste des versions</a>
                          </li>
+                         <li>
+                             <a href="{{ route('type_versions.create') }}">Nouveau type de version</a>
+                         </li>
+                         <li>
+                             <a href="{{ route('type_versions.index') }}">Liste des types de versions</a>
+                         </li>
 
                      </ul>
 

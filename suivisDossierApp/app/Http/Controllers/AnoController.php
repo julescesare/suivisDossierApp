@@ -26,7 +26,7 @@ class AnoController extends Controller
         // dd($data);
         // $data['created_by'] = Auth::check() ? Auth::id() : null;
         Ano::create($data);
-        return redirect()->route('anos.index')->with('success', 'Ano created.');
+        return redirect()->route('anos.index')->with('success', 'Ano crée avec succès.');
     }
 
     public function show(Ano $ano)
@@ -43,12 +43,12 @@ class AnoController extends Controller
     public function update(AnoRequest $request, Ano $ano)
     {
         $ano->update($request->validated());
-        return redirect()->route('anos.index')->with('success', 'Ano updated.');
+        return redirect()->route('anos.index')->with('success', 'Ano mis à jour avec succès.');
     }
 
     public function destroy(Ano $ano)
     {
         $ano->delete();
-        return redirect()->route('anos.index')->with('success', 'Ano deleted.');
+        return redirect()->route('anos.index')->with('success', 'Ano supprimé avec succès.');
     }
 }
