@@ -87,11 +87,11 @@
                      <ul class="submenu ">
 
                          <li>
-                             <a href="#">Nouvelle autorité</a>
+                             <a href="{{ route('autorites.create') }}">Nouvelle autorité</a>
                          </li>
 
                          <li>
-                             <a href="#">Liste des autorités</a>
+                             <a href="{{ route('autorites.index') }}">Liste des autorités</a>
                          </li>
 
                      </ul>
