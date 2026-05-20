@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('libelle');
             $table->string('description');
+            $table->String('couleur')->nullable();
             $table->unsignedBigInteger('created_by')->nullable();
             $table->timestamps();
         });

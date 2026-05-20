@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
   <diagram name="Page-1" id="a4yarPktm6R-mF9Jl1MO">
-    <mxGraphModel dx="2515" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="2809" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -419,7 +419,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Mtggxi0OfD_B059oOEWZ-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; font-weight: 400; text-wrap: nowrap;&quot;&gt;statut&lt;/span&gt;" vertex="1">
-          <mxGeometry height="144" width="200" x="500" y="1240" as="geometry" />
+          <mxGeometry height="170" width="200" x="500" y="1240" as="geometry" />
         </mxCell>
         <mxCell id="Mtggxi0OfD_B059oOEWZ-14" parent="Mtggxi0OfD_B059oOEWZ-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;" value="-id :int" vertex="1">
           <mxGeometry height="26" width="200" y="26" as="geometry" />
@@ -430,11 +430,14 @@
         <mxCell id="Mtggxi0OfD_B059oOEWZ-16" parent="Mtggxi0OfD_B059oOEWZ-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;" value="-description :Sting" vertex="1">
           <mxGeometry height="26" width="200" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="Mtggxi0OfD_B059oOEWZ-17" parent="Mtggxi0OfD_B059oOEWZ-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;" value="-created_by :int" vertex="1">
+        <mxCell id="EGMajx5UIijoPKPFTcfi-32" parent="Mtggxi0OfD_B059oOEWZ-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;" value="-couleur:Sting" vertex="1">
           <mxGeometry height="26" width="200" y="104" as="geometry" />
         </mxCell>
+        <mxCell id="Mtggxi0OfD_B059oOEWZ-17" parent="Mtggxi0OfD_B059oOEWZ-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Tahoma;" value="-created_by :int" vertex="1">
+          <mxGeometry height="26" width="200" y="130" as="geometry" />
+        </mxCell>
         <mxCell id="Mtggxi0OfD_B059oOEWZ-18" parent="Mtggxi0OfD_B059oOEWZ-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="14" width="200" y="130" as="geometry" />
+          <mxGeometry height="14" width="200" y="156" as="geometry" />
         </mxCell>
         <mxCell id="Mtggxi0OfD_B059oOEWZ-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
           <mxGeometry height="30" width="60" x="540" y="1170" as="geometry" />

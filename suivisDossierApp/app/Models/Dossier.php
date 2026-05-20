@@ -58,6 +58,11 @@ class Dossier extends Model
         return $this->belongsTo(TypeVersion::class);
     }
 
+    public function statut()
+    {
+        return $this->belongsTo(Statut::class);
+    }
+
     public function personnels()
     {
         return $this->belongsToMany(
