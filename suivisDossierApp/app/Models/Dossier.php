@@ -23,6 +23,9 @@ class Dossier extends Model
         'delai_evaluation',
         'statut',
         'temps_traitement',
+        'dossier_parent_id',
+        'type_version_id',
+        'numero_bordereau',
         'created_by'
     ];
 
@@ -50,9 +53,9 @@ class Dossier extends Model
         return $this->belongsTo(Ano::class);
     }
 
-    public function versions()
+    public function typeversion()
     {
-        return $this->hasMany(Version::class);
+        return $this->belongsTo(TypeVersion::class);
     }
 
     public function personnels()

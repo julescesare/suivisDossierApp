@@ -36,9 +36,16 @@ return new class extends Migration
 
             $table->string('reference_lettre_dnccp')->nullable();
 
+            $table->string('numero_bordereau')->nullable();
+
             $table->date('date_signature_reponse')->nullable();
 
             $table->unsignedBigInteger('ano_id')
+                ->nullable();
+
+            $table->unsignedBigInteger('type_version_id');
+
+            $table->unsignedBigInteger('dossier_parent_id')
                 ->nullable();
 
             $table->date('date_ouverture_offres')->nullable();

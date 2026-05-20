@@ -12,8 +12,8 @@ class TypeVersion extends Model
         'created_by'
     ];
 
-    public function versions()
+    public function dossiers()
     {
-        return $this->hasMany(Version::class);
+        return $this->hasMany(Dossier::class);
     }
 }

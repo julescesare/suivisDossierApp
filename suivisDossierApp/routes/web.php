@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AnoController;
 use App\Http\Controllers\TypeVersionController;
+use App\Http\Controllers\VersionController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
