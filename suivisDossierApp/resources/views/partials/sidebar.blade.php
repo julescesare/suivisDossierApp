@@ -171,11 +171,11 @@
                      <ul class="submenu ">
 
                          <li>
-                             <a href="#">Nouvelle entité</a>
+                             <a href="{{ route('entites.create') }}">Nouvelle entité</a>
                          </li>
 
                          <li>
-                             <a href="#">Liste des entités</a>
+                             <a href="{{ route('entites.index') }}">Liste des entités</a>
                          </li>
 
                      </ul>

@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AnoController;
 use App\Http\Controllers\AutoriteController;
+use App\Http\Controllers\EntiteController;
 use App\Http\Controllers\InstructionController;
 use App\Http\Controllers\NatureController;
 use App\Http\Controllers\TypeVersionController;
@@ -24,3 +25,5 @@ Route::resource('autorites', AutoriteController::class);
 Route::resource('instructions', InstructionController::class);
 //Nature
 Route::resource('natures', NatureController::class);
+//entite
+Route::resource('entites', EntiteController::class);

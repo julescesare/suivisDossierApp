@@ -59,8 +59,8 @@
 
                 </div>
                 @yield('content')
-                <!-- Footer -->
-                @include('partials.footer')
+                <!-- Footer 
+                @include('partials.footer')-->
             </div>
         </div>
         <script src="{{ asset('admin/assets/js/feather-icons/feather.min.js') }}"></script>
