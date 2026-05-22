@@ -21,7 +21,7 @@ class Dossier extends Model
         'ano_id',
         'date_ouverture_offres',
         'delai_evaluation',
-        'statut',
+        'statut_id',
         'temps_traitement',
         'dossier_parent_id',
         'type_version_id',

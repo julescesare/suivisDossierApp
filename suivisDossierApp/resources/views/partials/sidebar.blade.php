@@ -25,23 +25,11 @@
                      <ul class="submenu ">
 
                          <li>
-                             <a href="#">Nouveau dossier</a>
+                             <a href="{{ route('dossiers.create') }}">Nouveau dossier</a>
                          </li>
 
                          <li>
-                             <a href="#">Liste des dossiers</a>
-                         </li>
-
-                         <li>
-                             <a href="#">Dossiers en étude</a>
-                         </li>
-
-                         <li>
-                             <a href="#">Dossiers validés</a>
-                         </li>
-
-                         <li>
-                             <a href="#">Dossiers signés</a>
+                             <a href="{{ route('dossiers.index') }}">Liste des dossiers</a>
                          </li>
 
                      </ul>

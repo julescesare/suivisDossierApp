@@ -31,3 +31,5 @@ Route::resource('entites', EntiteController::class);
 Route::resource('fonctions', \App\Http\Controllers\FonctionController::class);
 //personnel
 Route::resource('personnels', \App\Http\Controllers\PersonnelController::class);
+//dossier
+Route::resource('dossiers', \App\Http\Controllers\DossierController::class);
