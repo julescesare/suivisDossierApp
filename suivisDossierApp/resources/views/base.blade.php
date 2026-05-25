@@ -74,7 +74,8 @@
         <script src="{{ asset('admin/assets/js/main.js') }}"></script>
         <script src="{{ asset('admin/assets/vendors/simple-datatables/simple-datatables.js') }}"></script>
         <script src="{{ asset('admin/assets/js/vendors.js') }}"></script>
-
+        {{-- Scripts des pages enfants --}}
+        @stack('scripts')
 </body>
 
 </html>

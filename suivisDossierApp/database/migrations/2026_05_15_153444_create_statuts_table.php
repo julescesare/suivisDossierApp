@@ -16,10 +16,12 @@ return new class extends Migration
             $table->string('libelle');
             $table->string('description');
             $table->string('couleur')->nullable();
+            $table->string('couleur_hex', 7)->nullable();
             $table->unsignedBigInteger('created_by')->nullable();
             $table->timestamps();
         });
     }
+
 
     /**
      * Reverse the migrations.

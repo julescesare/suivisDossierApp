@@ -257,6 +257,9 @@
                          <li>
                              <a href="#">Gestion des rôles</a>
                          </li>
+                         <li>
+                             <a href="{{ route('statuts.index') }}">Gestion des statuts</a>
+                         </li>
 
                          <li>
                              <a href="#">Configuration système</a>

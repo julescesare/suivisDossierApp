@@ -33,3 +33,5 @@ Route::resource('fonctions', \App\Http\Controllers\FonctionController::class);
 Route::resource('personnels', \App\Http\Controllers\PersonnelController::class);
 //dossier
 Route::resource('dossiers', \App\Http\Controllers\DossierController::class);
+//statut
+Route::resource('statuts', \App\Http\Controllers\StatutController::class);
